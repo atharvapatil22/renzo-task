@@ -1,3 +1,9 @@
+@import url("https://fonts.googleapis.com/css2?family=Cairo&family=Merriweather:wght@700&display=swap");
+
 .App {
   --navbar-height: 8vh;
+  --yellow: #ffe81f;
+  --black: #212121;
+
+  --font-2: "Merriweather", serif;
 }

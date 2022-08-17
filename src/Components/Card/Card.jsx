@@ -11,20 +11,25 @@ function Card({ data }) {
       <div className={styles.content}>
         <h2>{data.name}</h2>
 
-        <p>
-          <MdPrecisionManufacturing /> Manufacturer: {data.manufacturer}
+        <p className={styles.property}>
+          <MdPrecisionManufacturing />
+          &nbsp;Manufacturer: {data.manufacturer}
         </p>
-        <p>
-          <VscTypeHierarchySub /> Class: {data.starship_class.toUpperCase()}
+        <p className={styles.property}>
+          <VscTypeHierarchySub />
+          &nbsp;Class: {data.starship_class}
         </p>
-        <p>
-          <FaCoins /> Cost: {data.cost_in_credits} credits
+        <p className={styles.property}>
+          <FaCoins />
+          &nbsp;Cost: {data.cost_in_credits} credits
         </p>
-        <p>
-          <GrUserWorker /> Crew: {data.crew}
+        <p className={styles.property}>
+          <GrUserWorker />
+          &nbsp;Crew: {data.crew}
         </p>
-        <p>
-          <FaUsers /> Passengers: {data.passengers}
+        <p className={styles.property}>
+          <FaUsers />
+          &nbsp;Passengers: {data.passengers}
         </p>
       </div>
     </div>

@@ -1,7 +1,7 @@
 .wrapper {
   border-radius: 10px;
   width: 30%;
-  height: 20em;
+  height: 22em;
   margin: 0.8em 1.5%;
   transition: all 0.3s;
   box-shadow: rgba(14, 30, 37, 0.08) 0px 2px 4px 0px,
@@ -21,21 +21,25 @@
 
 .content h2 {
   text-align: center;
+  font-family: var(--font-2);
 }
 
-.content p {
-  /* background-color: green; */
+.property {
   margin: 1em 0%;
+  color: rgb(88, 88, 88);
 }
 
-@media screen and (max-width: 900px) {
+@media screen and (max-width: 1018px) {
   .wrapper {
     width: 47%;
   }
 }
 
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 540px) {
   .wrapper {
     width: 98%;
+    min-height: 20em;
+    height: auto;
+    max-height: max-content;
   }
 }

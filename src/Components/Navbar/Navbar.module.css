@@ -1,9 +1,10 @@
 .wrapper {
-  background-color: rgb(113, 220, 129);
+  background-color: var(--black);
   width: 100vw;
   height: var(--navbar-height);
   position: sticky;
   top: 0;
+  color: var(--yellow);
 }
 
 .content {
