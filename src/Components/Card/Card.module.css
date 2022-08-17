@@ -1,0 +1,14 @@
+.wrapper {
+  border-radius: 10px;
+  width: 30%;
+  height: 10em;
+  margin: 20px;
+  transition: all 0.3s;
+  box-shadow: rgba(14, 30, 37, 0.12) 0px 2px 4px 0px,
+    rgba(14, 30, 37, 0.32) 0px 2px 16px 0px;
+}
+
+.wrapper:hover {
+  width: 33%;
+  height: 11em;
+}

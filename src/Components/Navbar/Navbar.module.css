@@ -1,0 +1,21 @@
+.wrapper {
+  background-color: rgb(113, 220, 129);
+  width: 100vw;
+  height: var(--navbar-height);
+  position: sticky;
+  top: 0;
+}
+
+.content {
+  height: 100%;
+  width: 85%;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.content h2 {
+  text-align: center;
+  margin: 0;
+}

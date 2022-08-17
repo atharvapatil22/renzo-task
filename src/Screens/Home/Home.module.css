@@ -1,0 +1,30 @@
+.wrapper {
+  min-height: calc(100vh - var(--navbar-height));
+  width: 70%;
+  margin: auto;
+  transition: all 0.3s;
+}
+
+h2 {
+  margin: 0;
+}
+
+.heading {
+  margin-top: 2em;
+  border-bottom: 2px solid black;
+  padding-bottom: 1.5em;
+  display: flex;
+  justify-content: space-between;
+}
+
+@media screen and (max-width: 900px) {
+  .wrapper {
+    width: 85%;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .wrapper {
+    width: 95%;
+  }
+}
