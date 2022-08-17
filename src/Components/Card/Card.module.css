@@ -1,14 +1,41 @@
 .wrapper {
   border-radius: 10px;
   width: 30%;
-  height: 10em;
-  margin: 20px;
+  height: 20em;
+  margin: 0.8em 1.5%;
   transition: all 0.3s;
-  box-shadow: rgba(14, 30, 37, 0.12) 0px 2px 4px 0px,
-    rgba(14, 30, 37, 0.32) 0px 2px 16px 0px;
+  box-shadow: rgba(14, 30, 37, 0.08) 0px 2px 4px 0px,
+    rgba(14, 30, 37, 0.24) 0px 2px 16px 0px;
+
+  float: left;
 }
 
 .wrapper:hover {
-  width: 33%;
-  height: 11em;
+  box-shadow: rgba(14, 30, 37, 0.16) 0px 2px 4px 0px,
+    rgba(14, 30, 37, 0.48) 0px 2px 16px 0px;
+}
+
+.content {
+  margin: 1.5em 5%;
+}
+
+.content h2 {
+  text-align: center;
+}
+
+.content p {
+  /* background-color: green; */
+  margin: 1em 0%;
+}
+
+@media screen and (max-width: 900px) {
+  .wrapper {
+    width: 47%;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .wrapper {
+    width: 98%;
+  }
 }
